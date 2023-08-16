@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://tamuno1383482586/results-summary-component-project/)
-- Live Site URL: [Add live site URL here](https://tamuno1383482586.github.io/results-summary-component-project/)
+- Solution URL: [https://github.com/Tamuno1383482586/results-summary-component-project#links]
+- Live Site URL: [https://tamuno1383482586.github.io/results-summary-component-project/]
 
 ## My process
 
