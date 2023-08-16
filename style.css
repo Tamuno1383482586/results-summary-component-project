@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: myFirstFontMedium;
+  src: url("./assets/fonts/static/HankenGrotesk-Medium.ttf");
+}
+
+@font-face {
+  font-family: myFirstFontBold;
+  src: url("./assets/fonts/static/HankenGrotesk-Bold.ttf");
+}
+
+@font-face {
+  font-family: myFirstFontExtraBold;
+  src: url("./assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
+}
+
+body {
+  font-family: myFirstFont;
+}
+
+/*.result-remark {
+  font-family: myFirstFont;
+}
+*/
+/*---Mobile Version CSS---*/
+.container {
+  /* height: 130vh;*/
+  height: 45rem;
+}
+.result-summary-header {
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0 0 35px 35px;
+  height: 23rem;
+  background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.score-display {
+  margin: 30px auto;
+  padding: 25px 37px;
+  border-radius: 150px;
+  background: linear-gradient(
+    180deg,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  text-align: center;
+}
+.test-score {
+  display: inline;
+  font-family: myFirstFontMedium;
+  color: hsl(0, 0%, 100%, 0.7);
+  font-size: 18px;
+}
+.large-text {
+  font-size: 58px;
+  font-family: myFirstFontBold;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+.result-remark {
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.result-summary-body {
+  padding: 25px 40px;
+}
+
+.score {
+  vertical-align: middle;
+}
+.right-floated {
+  float: right;
+  font-family: myFirstFontBold;
+  color: hsla(0, 0%, 0%, 0.45);
+}
+.bold-text {
+  font-family: myFirstFontBold;
+  color: hsla(0, 0%, 0%, 0.7);
+}
+
+.result-summary-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.continue-btn {
+  width: 80vw;
+  height: 9vh;
+  border: unset;
+  background: hsl(224, 30%, 27%);
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%, 0.7);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.subject-scores > p {
+  margin: 30px auto;
+}
+
+.grading-category {
+  position: relative;
+  top: -5px;
+  right: -3px;
+}
+
+#reaction {
+  color: hsla(0, 100%, 67%, 0.8);
+  font-family: myFirstFontMedium;
+}
+
+#memory {
+  color: hsla(39, 100%, 56%, 0.8);
+  font-family: myFirstFontMedium;
+}
+#verbal {
+  color: hsla(166, 100%, 37%, 0.8);
+  font-family: myFirstFontMedium;
+}
+#visual {
+  color: hsla(234, 85%, 45%, 0.8);
+  font-family: myFirstFontMedium;
+}
+.continue-btn:active {
+  background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  transition: 1s ease;
+}
+
+/*------Desktop Version Css-------*/
+@media (min-width: 376px) and (max-width: 1440px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 2px solid red;*/
+    max-width: 40rem;
+    max-height: 25rem;
+    border-radius: 20px;
+  }
+  .result-summary-header {
+    width: 20rem;
+    height: 100%;
+    border-radius: 20px;
+  }
+  .result-summary-body {
+    width: 19rem;
+  }
+  .continue-btn {
+    height: 3rem;
+  }
+}
+
+.reaction-para {
+  padding: 10px 14px;
+  background: hsla(0, 100%, 67%, 0.08);
+  font-size: 18px;
+  border-radius: 6px;
+}
+.memory-para {
+  padding: 10px 14px;
+  background: hsla(39, 100%, 56%, 0.08);
+  font-size: 18px;
+  border-radius: 6px;
+}
+.verbal-para {
+  padding: 10px 14px;
+  background: hsla(166, 100%, 37%, 0.08);
+  font-size: 18px;
+  border-radius: 6px;
+}
+.visual-para {
+  padding: 10px 14px;
+  background: hsla(234, 85%, 45%, 0.08);
+  font-size: 18px;
+  border-radius: 6px;
+}
+.result-comment {
+  font-family: myFirstFontMedium;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 18px;
+}
+.welcome-message {
+  font-family: myFirstFontBold;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 18px;
+}
+.summary-heading {
+  font-family: myFirstFontMedium;
+  color: hsla(0, 0%, 0%, 0.7);
+  font-size: 18px;
+}
