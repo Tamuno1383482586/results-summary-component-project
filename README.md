@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://tamuno1383482586/results-summary-component-project/)
+- Live Site URL: [Add live site URL here](https://tamuno1383482586.github.io/results-summary-component-project/)
 
 ## My process
 
@@ -148,11 +148,11 @@ CSS Grid
 - Frontend Mentor - [@Tamuno1383482586](https://www.frontendmentor.io/profile/Tamuno1383482586)
 - Twitter - [@DivineTamuno](https://mobile.twitter.com/DivineTamuno)
 
-
-
 ## Acknowledgments
 
 In future projects i would like to collaborate with team members but this
 project was single handely completed by me
+
+```
 
 ```
